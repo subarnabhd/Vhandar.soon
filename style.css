@@ -159,7 +159,7 @@ hr {
 
 .v-box{
     background-color: var(--primary-500);
-        padding: 80px;
+        padding: 60px 80px;
         border-radius: 16px;
         display: flex;
         flex-direction: column;
