@@ -228,7 +228,7 @@ hr {
     align-items: center;
     flex-grow: 1;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     padding: 20px;
 }
 
@@ -351,6 +351,11 @@ b {
     font-size: 14px;
     color: var(--primary-200);
     margin: 20px 0;
+        position: fixed;
+            left: 50%;
+            bottom: 20px;
+            transform: translate(-50%, -50%);
+            margin: 0 auto;
 }
 
 .copywrite a {
@@ -485,8 +490,8 @@ b {
         border-radius: 100px;
         padding: 10px;
         font-size: 10px !important;
-        height: 44px;
-        width: 44px;
+        height: 40px;
+        width: 40px;
         display: flex;
         flex-direction: row;
         align-content: center;
@@ -495,6 +500,9 @@ b {
 }
 .v-social:hover{
     background-color: var(--primary-400);
+}
+.social-links{
+    margin-top: 15px;
 }
 .social-links i{
     font-size: 16px;
