@@ -3,24 +3,22 @@ document.oncontextmenu = new Function("return false;")
 document.onselectstart = new Function("return false;")
 
 
-// Google Long Press
+
+
+//redirect
 document.addEventListener('DOMContentLoaded', function () {
-    let timer;
-    const longPressDuration = 1000; // 1000 milliseconds = 1 second
+    // Select all anchor tags on the page
+    const links = document.querySelectorAll('a');
 
-    const googleButton = document.getElementById('googleButton');
+    // Loop through each link
+    links.forEach(link => {
+        // Add an event listener for clicks
+        link.addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent the default action
 
-    googleButton.addEventListener('mousedown', function () {
-        timer = setTimeout(function () {
-            $('#googleModal').modal('show'); // Show the modal when long press is detected
-        }, longPressDuration);
-    });
-
-    googleButton.addEventListener('mouseup', function () {
-        clearTimeout(timer); // Cancel the popup if press is less than longPressDuration
-    });
-
-    googleButton.addEventListener('mouseleave', function () {
-        clearTimeout(timer); // Cancel the popup if the user moves the mouse away before long press duration
+            // Redirect to vhandar.com
+            window.location.href = 'https://vhandar.com';
+        });
     });
 });
+
