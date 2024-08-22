@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Check if the current path is not the root '/'
     if (currentPath !== '/') {
-        // Redirect to 'vhandar.com'
+        // Redirect to 'https://vhandar.com'
         window.location.href = 'https://vhandar.com';
     }
 });
