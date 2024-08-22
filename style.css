@@ -86,7 +86,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    background-color: var(--primary-900);
+    background-color: var(--primary-800);
     height: 100vh;
 }
 
@@ -158,7 +158,7 @@ hr {
 }
 
 .v-box{
-    background-color: var(--primary-600);
+    background-color: var(--primary-500);
         padding: 80px;
         border-radius: 16px;
         display: flex;
