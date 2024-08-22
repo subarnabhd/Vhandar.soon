@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // Get the current path of the URL
     const currentPath = window.location.pathname;
 
-    // Check if the current path is not already '/home'
-    if (currentPath !== '/home') {
-        // Redirect to 'vhandar.com/home'
-        window.location.href = 'https://vhandar.com/home';
+    // Check if the current path is not the root '/'
+    if (currentPath !== '/') {
+        // Redirect to 'vhandar.com'
+        window.location.href = 'https://vhandar.com';
     }
 });
