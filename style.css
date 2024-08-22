@@ -86,7 +86,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    background-color: var(--primary-700);
+    background-color: var(--primary-900);
     height: 100vh;
 }
 
@@ -110,7 +110,7 @@ i {
 }
 
 .logo img {
-    margin: 50px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 hr {
@@ -123,7 +123,7 @@ hr {
 .username {
     color: var(--primary-200);
     font-size: 15px;
-    padding: 10px;
+    padding: 15px 0px;
 }
 
 .websitebox {
@@ -142,8 +142,8 @@ hr {
 .website {
     background-color: var(--secondary-400);
     color: white;
-    padding: 10px 24px;
-    border-radius: 12px;
+    padding: 8px 20px;
+    border-radius: 100px;
     text-decoration: none;
     font-weight: 600;
     text-shadow: #000;
@@ -157,6 +157,16 @@ hr {
     background-color: var(--secondary-500);
 }
 
+.v-box{
+    background-color: var(--primary-600);
+        padding: 80px;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+}
 .webscanner {
     background-color: var(--secondary-500);
     height: 44px;
@@ -484,7 +494,7 @@ b {
         align-items: center;
 }
 .v-social:hover{
-    background-color: var(--primary-900);
+    background-color: var(--primary-400);
 }
 .social-links i{
     font-size: 16px;
