@@ -7,18 +7,12 @@ document.onselectstart = new Function("return false;")
 
 //redirect
 document.addEventListener('DOMContentLoaded', function () {
-    // Select all anchor tags on the page
-    const links = document.querySelectorAll('a');
+    // Get the current path of the URL
+    const currentPath = window.location.pathname;
 
-    // Loop through each link
-    links.forEach(link => {
-        // Add an event listener for clicks
-        link.addEventListener('click', function (event) {
-            event.preventDefault(); // Prevent the default action
-
-            // Redirect to vhandar.com
-            window.location.href = 'https://vhandar.com';
-        });
-    });
+    // Check if the current path is not already '/home'
+    if (currentPath !== '/home') {
+        // Redirect to 'vhandar.com/home'
+        window.location.href = 'https://vhandar.com/home';
+    }
 });
-
