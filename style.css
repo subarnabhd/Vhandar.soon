@@ -157,16 +157,17 @@ hr {
     background-color: var(--secondary-500);
 }
 
-.v-box{
+.v-box {
     background-color: var(--primary-500);
-        padding: 60px 80px;
-        border-radius: 16px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
+    padding: 60px 80px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
+
 .webscanner {
     background-color: var(--secondary-500);
     height: 44px;
@@ -254,12 +255,12 @@ b {
     font-size: 14px;
     color: var(--primary-200);
     margin: 20px 0;
-        position: fixed;
-            left: 50%;
-            bottom: 20px;
-            transform: translate(-50%, -50%);
-            margin: 0 auto;
-            text-align: center;
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    text-align: center;
 }
 
 .copywrite a {
@@ -309,15 +310,20 @@ b {
         width: auto;
         padding: 5px;
     }
-        .v-box{
-            padding: 60px;
-        }
-                .website {
-                    font-size: 14px;
-                }
-                .logo img {
-                   width: 180px;
-                }
+
+    .v-box {
+        padding: 60px;
+    }
+
+    .website {
+        font-size: 14px;
+        padding:8px 18px;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
     .v-link {
         font-size: 12px;
     }
@@ -328,26 +334,29 @@ b {
 }
 
 /* --------- Responsive End ---------- */
-.v-social{
+.v-social {
     background-color: var(--primary-500);
-        border-radius: 100px;
-        padding: 10px;
-        font-size: 10px !important;
-        height: 40px;
-        width: 40px;
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 10px !important;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
-.v-social:hover{
+
+.v-social:hover {
     background-color: var(--primary-400);
 }
-.social-links{
+
+.social-links {
     margin-top: 15px;
 }
-.social-links i{
+
+.social-links i {
     font-size: 16px;
     margin: 0px;
 }
