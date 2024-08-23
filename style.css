@@ -259,6 +259,7 @@ b {
             bottom: 20px;
             transform: translate(-50%, -50%);
             margin: 0 auto;
+            text-align: center;
 }
 
 .copywrite a {
@@ -308,7 +309,15 @@ b {
         width: auto;
         padding: 5px;
     }
-
+        .v-box{
+            padding: 60px;
+        }
+                .website {
+                    font-size: 14px;
+                }
+                .logo img {
+                   width: 180px;
+                }
     .v-link {
         font-size: 12px;
     }
