@@ -317,7 +317,7 @@ b {
 
     .website {
         font-size: 14px;
-        padding:8px 18px;
+        padding: 8px 18px;
     }
 
     .logo img {
@@ -359,4 +359,28 @@ b {
 .social-links i {
     font-size: 16px;
     margin: 0px;
+}
+
+.scan-me {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: white;
+    
+}
+
+.scan-me p {
+    text-align: center;
+    font-weight: 700;
+    margin: 0px;
+    padding: 5px 0;
+    color: #06402b;
+}
+
+.scan-me img {
+    padding: 0px;
+    border-radius: 12px;
+    background-color: white;
 }
